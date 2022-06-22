@@ -7,5 +7,5 @@ module.exports = function reverse (n) {
     {
         strNReverse+= strN[i];
     }
-    return Number(strNReverse);
+    return  Math.abs(Number(strNReverse));
 }
